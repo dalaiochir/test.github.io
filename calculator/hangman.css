@@ -1,0 +1,27 @@
+body {
+    text-align: center;
+    font-family: Arial, sans-serif;
+  }
+  
+  h1 {
+    color: #333;
+  }
+  
+  #question {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  
+  #word {
+    font-size: 24px;
+    margin-bottom: 20px;
+  }
+  
+  #letters {
+    margin-bottom: 20px;
+  }
+  
+  #hangman {
+    font-size: 30px;
+    color: red;
+  }

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Currency Converter</title>
+    <link rel="stylesheet" href="Calculator.css">
+</head>
+<body>
+	<div class="bg1">
+    <div class="bg">
+	<div class="currency-converter">
+        <h1 >Currency Converter</h1>
+        <label for="amount">Enter amount:</label>
+        <input type="number"  id="amount" placeholder="0">
+            <div>
+                <label for="currency">Select currency:</label><br>
+                <input type="radio" id="usd" name="currency" value="0" checked>
+                <label for="usd">USD</label>
+                <input type="radio" id="euro" name="currency" value="1">
+                <label for="euro">EURO</label>
+                <input type="radio" id="pound" name="currency" value="2">
+                <label for="pound">POUND</label>
+                <input type="radio" id="won" name="currency" value="3">
+                <label for="won">WON</label>
+                <input type="radio" id="yen" name="currency" value="4">
+                <label for="yen">YEN</label>
+                <input type="radio" id="yan" name="currency" value="5">
+                <label for="yan">YAN</label>
+            </div>
+        <div class="calculator">
+            </div>
+            <div class="buttons">
+              <button onclick="addNumber(1)">1</button>
+              <button onclick="addNumber(2)">2</button>
+              <button onclick="addNumber(3)">3</button>
+              <button onclick="addNumber(4)">4</button>
+              <button onclick="addNumber(5)">5</button>
+              <button onclick="addNumber(6)">6</button>
+              <button onclick="addNumber(7)">7</button>
+              <button onclick="addNumber(8)">8</button>
+              <button onclick="addNumber(9)">9</button>
+              <button onclick="clearDisplay()">C</button>
+              <button onclick="addNumber(0)">0</button>
+              <button onclick="convertCurrency()">Convert</button>
+          </div>
+        
+        <div id="result" align="center"></div>
+
+      </div>
+    </div>
+</div>
+	<br><br>
+	<p id="result" align="center"></p>
+
+	<script src="Calculator.js">
+        
+    </script>
+</body>
+</html>
