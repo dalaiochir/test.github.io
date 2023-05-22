@@ -1,0 +1,158 @@
+
+.profile-image img{
+    width:100px;
+    border-radius: 50%;
+    border: 3px solid white;
+    margin-top:30px;
+    margin-left: 30px;
+}
+.profile-title{
+    font-size: smaller;
+    color:white;
+    margin-left: 30px;
+}
+.profile-description{
+    font-size: smaller;
+    color:white;
+    margin-left: 30px;
+    margin-bottom: 30px;
+}
+.main-navigation li{
+    vertical-align: middle;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    padding-right: 10px;
+    color:white;
+}
+.main-navigation a{
+    text-decoration: none;
+    font-size: smaller;
+    color:white;  
+}
+.main-navigation li:hover{
+    background-color:rgb(104, 100, 117);
+}
+.main-navigation li{
+    list-style-type: none;
+    align-items:flex-start;
+    text-align: left;
+    padding-left: 30px;
+}
+.fa{
+    padding-right: 15px;
+}
+.sidebar-menu{
+    width:18.5%;
+    height:2370px;
+    background-color:rgb(106, 124, 145);
+    float: left;
+}
+.social-icons{
+    margin-left: 30px;
+}
+.social-icons a{
+    color:white;
+    float:left;
+    padding-top: 40px;
+}
+.social-icons :hover{
+    color:black;
+}
+.banner-bg{
+    background-image: url(img/7.jpg);
+    width:1310px;
+    height:600px;
+    float:left;
+     background-size: 100% 100%;
+     opacity: 0.9;
+}
+.banner-bg:after {
+    background-color: rgba(0,0,0,0.5);
+    width: 80.5%;
+    height: 600px;
+    margin-top: 7px;
+    position: absolute;
+    top: 0;
+    content: ' ';
+    display: block;
+    z-index: -1;
+}
+.welcome-text{
+    font-size: larger;
+    color:white;
+    margin:150px 10% 150px 10%;
+}
+.main-content{
+    margin:4% 7% auto 7%;
+    float:left;
+    float:right;
+    width:66%;
+    font-size: smaller;
+}
+.about-image img{
+    width:100%;
+}
+.blue{
+    color:blue;
+}
+.green{
+    color:green;
+}
+.project-item img{
+    padding-left: 2px;
+    padding-bottom: 2px;
+    width:33%;
+    float:left;
+}
+#contact{
+    float:right;
+}
+#your-name{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-right: 3%;
+    margin-bottom: 3%;
+    width:30%;
+}
+#email{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-right: 3%;
+    margin-bottom: 3%;
+    width:30%;
+}
+#your-subject{
+    padding-top: 7px;
+    padding-bottom: 7px;
+    margin-bottom: 3%;
+    width:30%;
+}
+#message{
+    width:99%;
+}
+#submit{
+    margin-top: 2%;
+    color:white;
+    background-color: rgb(106, 124, 145);
+    border:none;
+    height: 30px;
+    font-size: smaller;
+}
+.copyright-text{
+    text-align: center;
+}
+.widget-title{
+    margin-bottom: 3%;
+}
+.page-section a{
+    text-decoration: none;
+}
+hr{
+    margin-top: 3%;
+    margin-bottom: 5%;
+    height: 1px;
+    background-color: grey;
+}
+.h2{
+    font-style: normal;
+}
