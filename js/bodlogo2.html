@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Цифрүүдийн нийлбэр</title>
+
+    <script>
+        // Гараас тоо авах
+const input = prompt("Тоо оруулна уу:");
+
+// Цифрүүдийн нийлбэр олох функц
+function sumOfDigits(num) {
+  let sum = 0;
+  while (num) {
+    sum += num % 10;
+    num = Math.floor(num / 10);
+  }
+  return sum;
+}
+
+// Функц дуудах
+const sum = sumOfDigits(parseInt(input));
+// Нийлбэрийг гаргаж харуулах
+document.writeln('Таны оруулсан ' +input+' -н цифрүүдийн нийлбэр нь '+sum +' байна.');
+        </script>
+  </head>
+  <body>
+  </body>
+</html>

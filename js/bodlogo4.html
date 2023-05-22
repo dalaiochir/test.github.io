@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bodlogo4</title>
+</head>
+<body>
+    <script>
+        //3. Байшин 9 давхар, 3 орцтой, давхартаа 4 айлтай бол гараас өгсөн тоот нь хэддүгээр орцны хэддүгээр давхарын хэд дэх хаалга вэ
+        //1. Гараас тоо авах
+        var doorNum = prompt('Haalganii dugaaraa oruulna uu: ');
+        //2. Аль орцны айл гэдгийг олох
+        if(doorNum > 108){
+            document.write("Tanii oruulsn ail baih bolomjgui bn!");
+        }else {
+            var orts;
+            if(doorNum % 36 == 0){
+                orts = doorNum / 36;
+            }else{
+                orts = Math.floor(doorNum / 36) + 1;
+            }
+            //3. Аль давхарын айл гэдгийг олох
+            var davhar;
+            if(doorNum % 4 == 0){
+                if(doorNum % 36 == 0){
+                    davhar = 9;
+                }else
+                davhar = doorNum / 4;
+            }else{
+                davhar = Math.floor(doorNum % 36 / 4) + 1;
+            }
+            //4. Аль хаалга гэдгийн олох
+            var haalga;
+            if(doorNum % 4 == 0){
+                haalga = 4;
+            }else{
+                haalga = doorNum % 4;
+            }
+            document.write('Tanii oruulsn haalga '+ orts + ' ortsnii ' + davhar + ' davhriin ' + haalga + ' -r ail.');
+        }
+    </script>
+</body>
+</html>

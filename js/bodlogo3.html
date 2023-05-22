@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bodlogo3</title>
+</head>
+<body>
+    <script>
+        //2. Чоно 25 км/ц хурдтай, туулай 18 км/ц хурдтай. Гараас өгсөн зайтай байхад хэдэн минут хэдэн секундын дараа гэхэд гүйцэх вэ
+        //1. Гараас тоо авах
+        var space = prompt('Chono tuulai hoyriin hoorndoh zaig oruulna uu: ');
+        //2. Туулай чононд гүйцэгдэх хугацааг олох 
+        var totalSec = Math.floor(space / 7 * 3600);
+        var minutes = Math.floor(totalSec / 60);
+        var seconds = totalSec % 60
+        document.write('Tuulai chonond guitsegdh hugatsaa: ' + minutes + ' minutes' + seconds + ' seconds');
+    </script>
+    </script>
+</body>
+</html>
