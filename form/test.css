@@ -1,0 +1,51 @@
+.btn {
+  background-color: rgb(115, 164, 255); 
+  color: black; 
+  border: 2px solid #ffffff;
+  transition-duration: 0.4s;
+}
+.btn:active, .btn:visited{
+-webkit-transform:scale(1.1);
+transform:scale(1.1);
+}
+.btn:hover{
+  
+  background-color: rgb(115, 100, 255);
+}
+.btn1 {
+  background-color: rgb(113, 191, 250); 
+  color: black; 
+  border: 2px solid #ffffff;
+  transition-duration: 0.4s;
+}
+.btn1:active, .btn:visited{
+-webkit-transform:scale(1.1);
+transform:scale(1.1);
+}
+.btn1:hover{
+  
+  background-color: rgb(109, 135, 255);
+}
+
+ .Нүүр {
+  background-image: url("bg.jpg");
+  background-size: cover;
+  color: white;
+  border: 5px solid rgb(255, 255, 255);
+  margin: -10px;
+  padding: 20px;
+  margin-top: -30px;
+}
+.zurag {
+  color: white;
+  border: 5px solid rgb(255, 255, 255);
+  margin: 10px;
+  padding: 10px;
+  border-radius: 0%;
+}
+.tses{
+  margin: 200px;
+  padding: 10px;
+  margin-top: 200px;
+   margin-left: 1000px;
+}
