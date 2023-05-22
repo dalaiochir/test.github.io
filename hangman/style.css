@@ -1,0 +1,140 @@
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    height: auto;
+    font-family: 'Nunito', sans-serif;
+}
+
+
+
+.item-1{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: rgb(43, 43, 43);
+    overflow:hidden
+}
+
+.gif{
+    width: 60%;
+    height: 80%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.start{
+    width: 10%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: rgb(26, 26, 26);
+    margin-top: -275px;
+    margin-left: 730px;
+}
+
+.start h1, p{
+    width: 80%;
+}
+#start{
+    width: 80%;
+    height: 10%;
+    background-color: rgb(126, 126, 126);
+    border: 2px solid rgb(165, 203, 203);
+}
+
+#item-2{ 
+    background-color: rgb(184, 122, 186);
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+#chance{
+    width: 100px;
+    height: 32px;
+    background-color: white;
+    position: absolute;
+    margin-top: -145px;
+    margin-left: -700px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 4px solid rgb(241, 141, 53);
+    border-radius:  0.3em;
+    
+}
+
+.question-answer{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 20px;
+    
+}
+
+.question-answer input{
+    font-family: 'Nunito', sans-serif;
+    width: 33%;
+    height: 30px;
+    text-align: center;
+    border: 4px solid rgb(241, 141, 53);
+    border-radius:  0.3em 0 0 0.3em;
+}
+
+#answer{
+    font-family: 'Nunito', sans-serif;
+    width: 35.5%;
+    height: 30px;
+    text-align: center;
+    font-size: 25px;
+    border: 4px solid rgb(241, 141, 53);
+    border-radius:  0 0.3em 0.3em 0;
+    margin-top: 10px;
+    
+}
+.material-symbols-outlined{
+    background-color: white;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    vertical-align: middle;
+    border: 4px solid rgb(241, 141, 53);
+    border-radius:  0 0.3em 0.3em 0;
+}
+
+#hang img{
+    width: 300px;
+    height: 300px;
+    border: 4px solid rgb(241, 141, 53);
+    border-radius:  0.3em;
+}
+
+#alphabets{
+    margin-top: 10px;
+    width: 460px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+#alphabets button{
+    font-family: 'Nunito', sans-serif;
+    width: 35px;
+    height: 35px;
+    margin-bottom: 5px;
+    border-radius:  0.3em;
+    border-color: rgb(241, 141, 53);
+}

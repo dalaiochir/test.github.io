@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap" rel="stylesheet">
+    <title>Hangman Game</title>
+</head>
+<body>
+    
+         
+
+    <div id="item-2">
+        <div id="chance"></div>
+        <div class="question-answer">
+            <input type="text" id="question" placeholder="Question">
+            <button class="material-symbols-outlined" onclick="createQuestion()">restart_alt</button>
+        </div>
+        <div id="hang">
+            <img id="image">    
+        </div>
+        <input type="text" id="answer">
+        <div id="alphabets">
+            <button value="Ф" id="ф" onclick="checkAnswer('Ф')">Ф</button>
+            <button value="Ц" id="ц" onclick="checkAnswer('Ц')">Ц</button>
+            <button value="У" id="у" onclick="checkAnswer('У')">У</button>
+            <button value="Ж" id="ж" onclick="checkAnswer('Ж')">Ж</button>
+            <button value="Э" id="э" onclick="checkAnswer('Э')">Э</button>
+            <button value="Н" id="н" onclick="checkAnswer('Н')">Н</button>
+            <button value="Г" id="г" onclick="checkAnswer('Г')">Г</button>
+            <button value="Ш" id="ш" onclick="checkAnswer('Ш')">Ш</button>
+            <button value="Щ" id="щ" onclick="checkAnswer('Щ')">Щ</button>
+            <button value="Ү" id="ү" onclick="checkAnswer('Ү')">Ү</button>
+            <button value="З" id="з" onclick="checkAnswer('З')">З</button>
+            <button value="К" id="к" onclick="checkAnswer('К')">К</button>
+            <button value="Ъ" id="ъ" onclick="checkAnswer('Ъ')">Ъ</button>
+            <button value="Й" id="й" onclick="checkAnswer('Й')">Й</button>
+            <button value="Ы" id="ы" onclick="checkAnswer('Ы')">Ы</button>
+            <button value="Б" id="б" onclick="checkAnswer('Б')">Б</button>
+            <button value="Ө" id="ө" onclick="checkAnswer('Ө')">Ө</button>
+            <button value="А" id="а" onclick="checkAnswer('А')">А</button>
+            <button value="Х" id="х" onclick="checkAnswer('Х')">Х</button>
+            <button value="Р" id="р" onclick="checkAnswer('Р')">Р</button>
+            <button value="О" id="о" onclick="checkAnswer('О')">О</button>
+            <button value="Л" id="л" onclick="checkAnswer('Л')">Л</button>
+            <button value="Д" id="д" onclick="checkAnswer('Д')">Д</button>
+            <button value="П" id="п" onclick="checkAnswer('П')">П</button>
+            <button value="Я" id="я" onclick="checkAnswer('Я')">Я</button>
+            <button value="Ч" id="ч" onclick="checkAnswer('Ч')">Ч</button>
+            <button value="Е" id="е" onclick="checkAnswer('Е')">Е</button>
+            <button value="Ё" id="ё" onclick="checkAnswer('Ё')">Ё</button>
+            <button value="С" id="с" onclick="checkAnswer('С')">С</button>
+            <button value="М" id="м" onclick="checkAnswer('М')">М</button>
+            <button value="И" id="и" onclick="checkAnswer('И')">И</button>
+            <button value="Т" id="т" onclick="checkAnswer('Т')">Т</button>
+            <button value="Ь" id="ь" onclick="checkAnswer('Ь')">Ь</button>
+            <button value="В" id="в" onclick="checkAnswer('В')">В</button>
+            <button value="Ю" id="ю" onclick="checkAnswer('Ю')">Ю</button>
+            
+           
+        </div>
+    </div>
+    <div class="start">
+        <input type="button" id="start" value="NEW GAME" onclick="slide()">
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
